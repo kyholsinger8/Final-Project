@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kyle Holsinger ITCOS1105 Unit 06</title>
+
+<meta name="description" content="Kyle Holsinger in terms of life and career goals." />
+<meta name="author" content="Kyle Holsinger" />
+<meta name="author" content="Kyle Holsinger" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Stylesheet: -->
+
+<!-- Print Stylesheet: -->
+<link rel="stylesheet" type="text/css" media="screen" href="../styles/Kholsinger_styles.css"/>
+<link rel="stylesheet" type="text/css" media="print" href="../styles/Kholsinger_printstyles.css"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Link to JavaScript file will follow this comment -->
+<script src="../scripts/kholsinger_scripts.js"></script>
+
+<!--
+Please Fill In these sections 
+
+your name: _____Kyle Holsinger__________
+your student ID: 00538167_______________
+your LCCemail address: _kholsinger1@mail.lakelandcc.edu______________
+the date(s) you worked on the file: ____07/17/2022-07/19/2022___________
+
+What did you learn while working on the file: learned how to make the forms submit the typed or checked responses using the js file
+
+Some comments on "if I had all the time in the world to work on this, I would......" (how would you improve this assignment if time were no object, what other things might you want to learn?): (be appropriately creative in your answers!)
+
+-->
+
+</head> 
+
+<body>
+
+
+<header>
+<div id="h1">
+<h1>Kyle Holsinger ITCOS1105 Unit 06</h1>
+<p><a href="../kholsinger_mainpage.html">Return to Mainpage</a></p>
+</div>
+</header>
+
+
+<nav id="nav">
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+   <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"></a>
+    <a href="../child_pages/Kholsinger_unit03.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Unit 03</a>
+    <a href="../child_pages/Kholsinger_unit05.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Unit 05</a>
+    <a href="../child_pages/Kholsinger_unit06.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Unit 06</a>
+	<a href="../child_pages/Kholsinger_unit07.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Unit 07</a> 
+    </div>
+    </div>
+	
+</nav>
+
+<main>
+<section>
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" >
+<p><img src="../images/Avatarpng.png" alt="Kyle Holsinger" title=" A black and white film photo of Kyle Holsinger." height="98" width="70" /></p>
+<!-- Image taken by Kyle Holsinger -->
+<h2 class="w3-wide">My 4 Cats</h2>
+
+
+<table>
+<tr>
+<td><figure><img src="../images/Barbie.jpg" title=" 19 year old calico cat named Barbie." height="137" width="80" />
+<figcaption> Barbie</figcaption></figure>
+</td>
+<td><figure><img src="../images/Yuki.jpg" title=" 3 year old albino cat named Yuki." height="106" width="80" />
+<figcaption> Yuki</figcaption></figure>
+</td>
+<td><figure><img src="../images/Neki.jpg" title=" 4 year old tiger cat named Neki." height="106" width="80" />
+<figcaption> Neki</figcaption></figure>
+</td>
+<td><figure><img src="../images/Cho.jpg" title=" 4 year old tuxedo cat named Cho." height="106" width="80" />
+<figcaption> Cho</figcaption></figure>
+</td>
+</tr>
+</table>
+
+<form action="x.html" method="post" onsubmit="event.preventDefault();">
+
+<article>
+
+
+<p class="email"><label for="email" id="mail">Email:</label>
+<input type="email" name="email" id="email" class="title">
+</p> 
+
+<p class="password"><label for="password">Password:</label>
+<input type="password" name="password" id="password" class="title">
+</p>
+ 
+
+<h3>Cat Questions</h3>
+<p><label for="doyoulikecats"> Do you like cats?:</label>
+<input type="text" name="doyoulikecats" id="doyoulikecats" class="title">
+</p>
+
+
+<fieldset id="cat1">
+<legend>Which cat is 19 years old?</legend>
+<label>
+<input type="radio" name="catname" value="catname1" id="Neki">
+Neki</label>
+<br />
+<label>
+<input type="radio" name="catname" value="catname2" id="Cho">
+Cho</label>
+<br />
+<label>
+<input type="radio" name="catname" value="catname3" id="Yuki">
+Yuki</label>
+<br />
+<label>
+<input type="radio" name="catname" value="catname4" id="Barbie">
+Barbie</label>
+</fieldset>
+
+<p><label for="doyouhaveanycats"> Do you have any cats?:</label>
+<input type="text" name="doyouhaveanycats" id="doyouhaveanycats" class="title" required>
+</p>
+
+<fieldset id="cat2">
+<legend>If you don't have any cats would you own any?</legend>
+<label>
+<input type="checkbox" name="cbox" value="yes" id="yes">
+Yes</label>
+<br />
+<label>
+<input type="checkbox" name="cbox" value="no" id="no">
+No</label>
+<br />
+<label>
+<input type="checkbox" name="cbox" value="maybelater" id="maybelater">
+Maybe Later</label>
+<br />
+</fieldset>
+
+<p class="border">
+<label for="yourfavoritecat">Your favorite cat:</label>
+<select name="CatName" id="yourfavoritecat">
+<option value="Neki">Neki</option>
+<option value="Yuki">Yuki</option>
+<option value="Barbie">Barbie</option>
+<option value="Cho">Cho</option>
+<option value="All of the above">All of the above</option>
+</select>
+</p>
+
+<p><label for="tArea">What type of cat do you like?:</label>
+<textarea id="tArea" class="title" cols="10" rows="1"></textarea>
+</p>
+
+<p id="resultP"> &nbsp; </p>
+<input type="button" id="btUnit10" value="Run Unit 10" onclick=" fnUnit10()"/>
+
+<!--the information in the js file is telling the page what to do when the information is submitted. all of the information entered in the text fields and the buttons checked were listed when the unit 10 button was clicked 
+-->
+
+<button type="submit" id="submit"> Submit</button>
+
+</article>
+</form>
+</div>
+</section>
+</main>
+
+<footer class="w3-container  w3-center">
+<p id="cali"><img src="../images/caliroadpng.png " Alt="Cali Road " title="A view of a road leaving San Francisco. " height="309" width="902" /></p>
+<!-- Footer image taken by Kyle Holsinger -->
+<blockquote cite="https://www.goodreads.com/author/quotes/14033.Winston_S_Churchill"> 
+<p id="footerquote"><em> “An appeaser is one who feeds a crocodile, hoping it will eat him last.” </em><br />
+<a href="https://www.goodreads.com/author/quotes/14033.Winston_S_Churchill" title="churchillquote"><strong>― Winston S. Churchill</strong> </a></p>
+</blockquote>
+<p> &copy; 2022, My First Webpage, Kyle Holsinger. </p>
+</footer>
+
+</body>
+</html>

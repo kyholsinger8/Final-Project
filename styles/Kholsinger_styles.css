@@ -1,0 +1,216 @@
+/*Kyle holsinger
+ 00538167 
+ 07/25/2022 */
+ 
+
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=43u0u0khbDP71VkctNmldvrpAse*/
+
+/* unadjusted colors
+.color-secondary-1-1 { color: #FFF0C7 } -backgroud
+.color-primary-4 { color: #23678F } -text
+.color-secondary-2-4 { color: #E1582D } -contrast
+.color-complement-4 { color: #E1902D } -contrast2
+ */
+
+/*
+Page background color: #FFF4D6
+Text color: #1B4F6F
+Color used for contrast: #8F3114
+Color used for a different contrast: #754810
+*/
+header {
+	background-image: url("../images/nekiegg.png");
+	background-repeat: repeat-x;
+}
+header {
+color: #754810;
+background-color: #FFF4D6;
+}
+header {
+	text-shadow: 3px 3px 5px black;
+	text-align: center;
+	margin-top: 60px;
+}
+main {
+color: #1B4F6F;
+background-color: #FFF4D6;
+}
+
+body{
+	font-family: palatino, "book antiqua", garamond, serif;
+	/*serif 3 different font faces*/
+	word-spacing: 3px;
+}
+h1{
+	font-family: helvetica, tahoma, verdana, sans-serif;
+	/*san serif 3 different font faces*/
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+h3 {
+	text-indent: 25px;
+	text-align: left;
+}
+main p {
+	text-indent: 50px;
+	font-size: 100%;
+	line-height: 150%;
+}
+footer {
+color: #1B4F6F;
+background-color: #FFF4D6;
+}
+footer a {
+color: #8F3114
+} 
+footer a:hover {
+	color: #754810;
+	font-size: large;
+}
+footer a:active {
+	background-color: white;
+}
+footer a:visited {
+	color: blue;
+}
+
+ul.pawprint, ul.pawprint2 {
+	list-style-image: url("../images/pawprint.png");
+	/*image taken by kyle holsinger*/
+}
+/* Table styles*/
+
+table {
+  width: 100%;
+   border-collapse: collapse;
+}
+table, th, td {
+  border: 1.5px solid;
+}
+th {
+  height: 70px;
+}
+td {
+  text-align: center;
+}
+td{
+  background-color:#ffff;
+}
+th {
+  background-color:#bababa;
+}
+th.tabletitle {
+ background-color :#ffffff;
+ font-weight :bold;
+} 
+p.border{
+	border-style: solid;
+	height: 30px
+}
+#paragraph {
+	text-indent: 50px;
+	font-size: 100%;
+}
+#paragraph2 {
+	text-indent: 50px;
+	font-size: 100%;
+}
+#california-bold {
+	font-weight: bold;
+}
+#sanfran {
+	font-weight: bold;
+}
+#fiancé {
+	font-style: italic;
+}
+
+/* I chose the template because I just wanted a top navbar and my text to be centered in the page.
+I didn't have really have issues with responsiveness and I was trying to make a sidebar to challenge myself but ended up doing just the top navbar. 
+I made the template match my colors and got rid of a java link that was in the template  to pass the accessibilty and color checker.
+My website is responsive withe the link in the footer and the nav bar.
+
+The comments for what i learned this unit is on the mainpage
+
+*/
+#bfeed {
+	list-style-type: upper-roman;
+}
+#catfeed, #catfeed2{
+	list-style-type: upper-roman;
+}
+
+
+
+
+input#email, #password, #doyoulikecats, #doyouhaveanycats {
+	font-size: 100%;
+	color:black;
+	background-color: white;
+	border: 2px solid black ;
+	border-radius: 6px;
+	padding: 5px 5px 5px 100px;
+	background-repeat: no-repeat;
+	background-position: 6px 7px;
+	display: block;
+}
+input#email {
+	background-image: url("../images/email.png");
+
+}
+	
+#tArea {
+	font-size: 100%;
+	color:black;
+	background-color: white;
+	border: 2px solid black ;
+	border-radius: 6px;
+	padding: 5px 5px 5px 10px;
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	display: block;
+	margin-bottom: 20px;
+	resize:none;
+}
+
+#submit {
+	color: #1B4F6F;
+	border-color: #754810;
+	border-radius: 6px;
+}
+#submit:hover {
+	background-color: gray;
+}
+#cat1, #cat2 {
+	border: 1.5px dotted black;
+	margin-bottom: 10px;
+}
+#cats{
+	border-bottom: 2px solid gray ;
+	margin: 10px;
+	padding-bottom: 10px;
+	width: 100% ;
+}
+
+.title {
+	float: right;
+	width: 300px;
+	text-align: left;
+	padding-right: 10px;
+}
+.sumbit {
+	text-align: right;
+}
+.mymcolor {
+	background: #FFF4D6;
+}
+.myhcolor {
+	background: #FFF4D6;
+}
+

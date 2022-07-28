@@ -1,0 +1,23 @@
+ /*Kyle holsinger
+ 00538167 
+ 07/25/2022 */
+
+ /* print only */
+
+body, header, nav, main, footer, table, tr, td, th, div, .myhcolor, .mymcolor {
+	color: black;
+	background-color: white;
+}
+/* prints the parts above in black and white */
+img {
+	display: none;
+}
+/* does not show image when printed */
+#footerquote {
+	display: none;
+}
+/* does not show the quote when printed */
+#nav {
+	display: none;
+}
+/* does not show the navigtion bar */
